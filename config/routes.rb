@@ -1,7 +1,5 @@
 Datestar::Application.routes.draw do
   root :to => 'home#index'
-  match '/login' => 'home#create', :via => :post
-  match '/logout' => 'home#destroy', :via => :get
   resources :users
 
   # The priority is based upon order of creation:
