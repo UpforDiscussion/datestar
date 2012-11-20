@@ -1,5 +1,4 @@
 class HomeController < ApplicationController
-	def method_name
-
+	def index
 	end
 end

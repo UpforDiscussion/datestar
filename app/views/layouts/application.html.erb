@@ -8,7 +8,20 @@
 </head>
 <body>
 
-<%= yield %>
+	<header>
+		<div id="logo"></div>
+		<div id="login-link">
+			<%= link_to "Login" %>
+		</div>
+	</header>
 
+
+	<div class="main">	
+		<%= yield %>
+	</div>
+
+	<footer>
+		<div id="copyrights">COPYRIGHTS</div>
+	</footer>
 </body>
 </html>
