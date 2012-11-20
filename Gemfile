@@ -11,6 +11,7 @@ gem 'httparty'
 gem 'pry-rails'
 gem 'annotate'
 gem 'carrierwave'
+gem 'bcrypt-ruby'
 
 # Gems used only for assets and not required
 # in production environments by default.

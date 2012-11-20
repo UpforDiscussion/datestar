@@ -5,7 +5,11 @@ development:
   pool: 5
   host: localhost
   username: postgres
+<<<<<<< HEAD
   password: 123
+=======
+  password: Akarnani1
+>>>>>>> 9c51614bb9580447f77b13bc43a09a710a88b6fc
 
 production:
   adapter: postgresql
@@ -14,4 +18,8 @@ production:
   pool: 5
   host: localhost
   username: postgres
+<<<<<<< HEAD
   password: 123
+=======
+  password: Akarnani1
+>>>>>>> 9c51614bb9580447f77b13bc43a09a710a88b6fc
