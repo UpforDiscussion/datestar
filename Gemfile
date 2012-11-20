@@ -5,8 +5,13 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
+gem 'rmagick'
+gem 'pg'
+gem 'httparty'
+gem 'pry-rails'
+gem 'annotate'
+gem 'carrierwave'
+gem 'bcrypt-ruby'
 
 # Gems used only for assets and not required
 # in production environments by default.
