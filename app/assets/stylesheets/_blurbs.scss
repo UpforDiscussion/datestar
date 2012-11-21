@@ -1,0 +1,7 @@
+@mixin blurb($background) {
+	float: left;
+	width: 294px;
+	height: 150px;
+	margin: 10px;
+	background: $background;
+}
