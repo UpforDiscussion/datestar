@@ -1,6 +1,10 @@
 Datestar::Application.routes.draw do
-  root :to => 'home#index'
   resources :users
+  root :to => 'home#index'
+  match '/questions' => 'users#questions', :via => :get
+  # match '/users' => 'users#create', :via => :post
+  # match '/users' => 'users#edit', :via => :get
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

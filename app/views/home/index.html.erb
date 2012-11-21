@@ -1,5 +1,5 @@
 <div id="login">
-	<%= form_for(@user)  do |f| %>
+	<%= form_for @user do |f| %>
     	 <div class="field">
         <%= f.label :name %><br />
         <%= f.text_field :name %>
@@ -12,11 +12,10 @@
         <%= f.label :password_confirmation %><br />
         <%= f.password_field :password_confirmation %>
       </div>
-
       <div class="actions">
         <%= f.submit %>
       </div>
-<% end %>
+  <% end %>
 </div>
 
 <div id="how-it-works">

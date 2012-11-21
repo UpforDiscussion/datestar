@@ -1,0 +1,39 @@
+<div id="login">
+	<%= form_for(@user) do |f| %>
+  	<div class="field">
+      Tagline
+      <%= f.text_field :tagline %>
+  	</div>
+  	<div class="field">
+      Age
+      <%= f.text_field :age %>
+  	</div>
+  	<div class="field">
+      Gender
+      <%= f.text_field :gender %>
+  	</div>
+  	<div class="field">
+      City
+      <%= f.text_field :city %>
+  	</div>
+  	<div class="field">
+      State
+      <%= f.text_field :state %>
+  	</div>
+  	<div class="field">
+      Ethnicity
+      <%= f.text_field :ethnicity %>
+  	</div>
+  	<div class="field">
+      Description
+      <%= f.text_field :description %>
+  	</div>
+
+
+
+
+      <div class="actions">
+        <%= f.submit %>
+      </div>
+<% end %>
+</div>
